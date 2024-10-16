@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+  body {
+    font-family: "Quicksand", sans-serif;
+    color: #4C4C4C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  header p{
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 20px;
+    word-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-family: "DM Sans";
+    color: #E76943;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 33px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .paragraph{
+    width: 450px;
+    text-align: center;
+  }
+  
+  .p1, .p2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .p1::after {
+    content: "the mental health journey of athletes.";
+    color: #E76943;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content h2{
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: #E76943;
+  }
+
+  .content p{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: #4C4C4C;
+  }
+  
+  .content-item {
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+    text-align: left;
+  }
+
+ .content-text{
+    margin-top: 10px;
+    width: 350px;
+  }
+  
+  .content-item img {
+    width: 100px;
+    border-radius: 80px;
+  }
+  
+  .quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .quote-item {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    text-wrap: wrap;
+    gap: 70px;
+    margin: 20px 0;
+  }
+
+  .ring {
+    width: 85px;
+    height: 82px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ring img{
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+  }
+
+  .quote-text{
+    width: 250px;
+  }
+  
+  blockquote {
+    font-family: 'DM Sans';
+    font-weight: 600;
+    color: #4C4C4C;
+    margin: 10px 0;
+    word-spacing: 4px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: #f8f8f8;
+    height: 170px;
+}
+
+  .footer-left {
+    max-width: 70%;
+    padding: 10px;
+  }
+
+  .footer-left h1 {
+    color: #E76943;
+    font-family: DM Sans;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-left p {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+
+  .footer-left .contact-info {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #4C4C4C;
+  }
+
+  .footer-right {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .social-icons {
+    margin-bottom: 10px;
+  }
+
+  .social-icons svg {
+    width: 90px;
+  }
+
+  .app-buttons svg {
+    width: 80px;
+    margin: 10px 0;
+  }
+
+  a{
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #4C4C4C;
+  }
